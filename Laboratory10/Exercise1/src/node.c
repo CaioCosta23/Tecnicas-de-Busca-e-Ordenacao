@@ -9,11 +9,6 @@ struct Node {
     Node *left, *right;  
 };
 
-/**
- * @brief Construct (dynamic allocation of memory for) a Node;
- * 
- * @return Node* Pointer to Abstract Data Type to represents a structure that contains all informations (inicialized) about the Node;
- */
 Node *constructNode() {
     Node *node = NULL;
 
